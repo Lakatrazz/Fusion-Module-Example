@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionModuleExample", "FusionModuleExample\FusionModuleExample.csproj", "{8C17B208-80A3-4811-87C7-75EB98546786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMod", "TestMod\TestMod.csproj", "{B91F6E8A-3B8D-4FCC-B4C1-CC118171B113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C17B208-80A3-4811-87C7-75EB98546786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C17B208-80A3-4811-87C7-75EB98546786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C17B208-80A3-4811-87C7-75EB98546786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C17B208-80A3-4811-87C7-75EB98546786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91F6E8A-3B8D-4FCC-B4C1-CC118171B113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91F6E8A-3B8D-4FCC-B4C1-CC118171B113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91F6E8A-3B8D-4FCC-B4C1-CC118171B113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91F6E8A-3B8D-4FCC-B4C1-CC118171B113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A6E425-CF16-4BE4-A3A6-57FDD98B44D2}
+	EndGlobalSection
+EndGlobal
