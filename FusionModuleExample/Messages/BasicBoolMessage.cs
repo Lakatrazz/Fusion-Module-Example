@@ -10,6 +10,8 @@ using LabFusion.Network;
 namespace FusionModuleExample.Messages {
     public class BasicBoolData : IFusionSerializable, IDisposable
     {
+        public const int Size = sizeof(byte);
+
         public bool value;
 
         public void Dispose()

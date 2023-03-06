@@ -45,6 +45,10 @@ namespace FusionModuleExample
                     LoggerInstance.Log("Sending string message!", ConsoleColor.Green);
 
                     // Create the writer
+                    // When you can, provide a size to the FusionWriter.Create call
+                    // This will prevent unnecessary array resizes, providing better performance
+                    // In this case, we are using a string, so we don't know the size
+                    // If you have dynamically sized data, provide the minimum possible size
                     using (var writer = FusionWriter.Create()) {
                         // Create the data
                         // For this you can simply write a string, but this shows the IFusionSerializable system
@@ -73,7 +77,9 @@ namespace FusionModuleExample
 
                     LoggerInstance.Log("Sending bool message!", ConsoleColor.Green);
 
-                    using (var writer = FusionWriter.Create())
+                    // When you can, provide a size to the FusionWriter.Create call
+                    // This will prevent unnecessary array resizes, providing better performance
+                    using (var writer = FusionWriter.Create(BasicBoolData.Size))
                     {
                         using (var data = BasicBoolData.Create(true))
                         {
