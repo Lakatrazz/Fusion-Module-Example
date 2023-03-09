@@ -3,7 +3,7 @@
 This is an example project for a BONELAB: Fusion module.
 
 # Fusion Source Code
-- https://gitlab.com/Lakatrazz/bonelab-fusion
+- https://github.com/Lakatrazz/BONELAB-Fusion
 
 # Project Setup
 
